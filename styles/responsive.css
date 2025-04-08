@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+    #about { 
+        flex-direction: column; 
+        font-size: 14px;
+        display:flex;
+        height: auto;
+        margin: auto 0;
+
+    }
+    h1,h3{
+        color:#fff;
+        padding: 8px;
+        color: chocolate;
+        font-weight: 600;
+    }
+    h1{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    p {
+        font-size: 1 rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+    }  
+    #contents{
+        font-size: 1 rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        box-sizing: border-box;
+    }
+
+    #sidemenu {
+    display: flex; 
+    
+    }
+
+    .navbar .fa-bars {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    } 
+
+    #sidemenu a:hover {
+        color: #f39c12;
+        transform: scale(1.05);
+        transition: all 0.2s ease;
+    }
+    
+}
